@@ -125,7 +125,7 @@ abbr -a gsu        git submodule update
 abbr -a gsur       git submodule update --recursive
 abbr -a gsuri      git submodule update --recursive --init
 abbr -a gts        git tag -s
-abbr -a gtv        git tag | sort -V
+# abbr -a gtv        git tag | sort -V # to slow to startup fish
 abbr -a gsw        git switch
 abbr -a gswc       git switch --create
 abbr -a gunignore  git update-index --no-assume-unchanged
