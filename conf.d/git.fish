@@ -52,7 +52,7 @@ abbr -a gf         git fetch
 abbr -a gfa        git fetch --all --prune
 abbr -a gfm        "git fetch origin (__git.default_branch) --prune; and git merge FETCH_HEAD"
 abbr -a gfo        git fetch origin
-abbr -a gl         git pull --no-ff
+abbr -a gl         git pull 
 abbr -a ggl        git pull origin \(__git.current_branch\)
 abbr -a gll        git pull origin
 abbr -a glr        git pull --rebase
