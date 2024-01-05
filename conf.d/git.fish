@@ -65,7 +65,7 @@ abbr -a gloga      git log --oneline --decorate --color --graph --all
 abbr -a glom       git log --oneline --decorate --color \(__git.default_branch\)..
 abbr -a glod       git log --oneline --decorate --color develop..
 abbr -a gloo       "git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
-abbr -a gm         git merge --no-ff
+abbr -a gm         git merge 
 abbr -a gmt        git mergetool --no-prompt
 abbr -a gmom       git merge origin/\(__git.default_branch\)
 abbr -a gp         git push
