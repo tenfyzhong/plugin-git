@@ -56,6 +56,7 @@ abbr -a gl         git pull
 abbr -a ggl        git pull origin \(__git.current_branch\)
 abbr -a gll        git pull origin
 abbr -a glr        git pull --rebase
+abbr -a glnf       git pull --no-ff
 abbr -a glg        git log --stat
 abbr -a glgg       git log --graph
 abbr -a glgga      git log --graph --decorate --all
