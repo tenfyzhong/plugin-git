@@ -16,20 +16,20 @@ abbr -a gbsb git bisect bad
 abbr -a gbsg git bisect good
 abbr -a gbsr git bisect reset
 abbr -a gbss git bisect start
-abbr -a gc git commit -v -s
-abbr -a gc! git commit -v --amend -s
-abbr -a gcn! git commit -v --no-edit --amend -s
-abbr -a gca git commit -v -a -s
-abbr -a gca! git commit -v -a --amend -s
-abbr -a gcan! git commit -v -a --no-edit --amend -s
-abbr -a gcv git commit -v --no-verify -s
-abbr -a gcav git commit -a -v --no-verify -s
-abbr -a gcav! git commit -a -v --no-verify --amend -s
-abbr -a gcm git commit -m -s
-abbr -a gcam git commit -a -m -s
-abbr -a gcs git commit -S -s
-abbr -a gscam git commit -S -a -m -s
-abbr -a gcfx git commit --fixup -s
+abbr -a gc git commit -s -v
+abbr -a gc! git commit -s -v --amend
+abbr -a gcn! git commit -s -v --no-edit --amend
+abbr -a gca git commit -s -v -a
+abbr -a gca! git commit -s -v -a --amend
+abbr -a gcan! git commit -s -v -a --no-edit --amend
+abbr -a gcv git commit -s -v --no-verify
+abbr -a gcav git commit -s -a -v --no-verify
+abbr -a gcav! git commit -s -a -v --no-verify --amend
+abbr -a gcm git commit -s -m
+abbr -a gcam git commit -s -a -m
+abbr -a gcs git commit -s -S
+abbr -a gscam git commit -s -S -a -m
+abbr -a gcfx git commit -s --fixup
 abbr -a gcf git config --list
 abbr -a gcl git clone
 abbr -a gclean git clean -di
